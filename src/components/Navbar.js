@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
-import { MdCancel } from "react-icons/md";
+import { RxCross1 } from "react-icons/rx";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
@@ -18,9 +18,9 @@ export default function Navbar() {
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           {click ? (
-            <MdCancel className="icon" size={30} />
+            <RxCross1 className="icon" size={25} />
           ) : (
-            <FaBars size={30} className="icon" />
+            <FaBars size={25} className="icon" />
           )}
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>

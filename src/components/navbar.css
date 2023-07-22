@@ -1,8 +1,9 @@
 
 .navbar {
     background-color: white;    
-    box-shadow: 0px 0.5px 15px  #8888;
-
+    background-color: transparent;
+    position: -webkit-sticky;
+    position: sticky;
 }
 .logo {
     text-decoration: none;
@@ -20,6 +21,10 @@
 .menu-icon {
     display: flex;
     align-items: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
 }
 
 .nav-menu.active {
