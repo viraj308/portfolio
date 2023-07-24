@@ -1,37 +1,35 @@
+:root {
+    --primary-clr: #fff;
+}
 
-.navbar {
-    background-color: white;    
+
+.navbar { 
     background-color: transparent;
-    position: -webkit-sticky;
-    position: sticky;
+    padding: 1em 0;
 }
 .logo {
     text-decoration: none;
     font-size: 2rem;
-    color: black;
+    font-weight: 600;
+    color: var(--primary-clr)
 }
-.container {
-    width: 90%;
-    margin: 0 auto;
+.navbar-flex {
     display: flex;
-    padding: 1em 0;
     justify-content: space-between;
     align-items: center;
 }
 .menu-icon {
     display: flex;
     align-items: center;
-    background-color: black;
-    padding: 10px;
     border-radius: 100%;
-    color: white;
+    color: var(--primary-clr);
 }
 
 .nav-menu.active {
   left: 0;
 }
 .nav-menu {
-    background-color: white;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -46,20 +44,15 @@
 .nav-links {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
     display: inline-block;
     width: 100%;
     padding: 2em 0;
-}
-.nav-links:hover {
-    background-color: black;
-    color: white;
+    font-weight: 600;
 }
 .nav-item {  
     text-align: center;
 }
 .nav-item:hover {
-    border: 1px solid black;
     cursor: pointer;
 }
 

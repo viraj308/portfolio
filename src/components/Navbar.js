@@ -13,37 +13,39 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <Link to="/" className="logo" onClick={closeMobileMenu}>
-          VIRU
-        </Link>
-        <div className="menu-icon" onClick={handleClick}>
-          {click ? (
-            <RxCross1 className="icon" size={25} />
-          ) : (
-            <FaBars size={25} className="icon" />
-          )}
+        <div className="navbar-flex">
+          <Link to="/" className="logo" onClick={closeMobileMenu}>
+            VIRU
+          </Link>
+          <div className="menu-icon" onClick={handleClick}>
+            {click ? (
+              <RxCross1 className="icon" size={25} />
+            ) : (
+              <FaBars size={25} className="icon" />
+            )}
+          </div>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item" onClick={closeMobileMenu}>
+              <Link to="/" className="nav-links">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item" onClick={closeMobileMenu}>
+              <Link to="/about" className="nav-links">
+                About Me
+              </Link>
+            </li>
+            <li className="nav-item" onClick={closeMobileMenu}>
+              <Link
+                to="/projects"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Projects
+              </Link>
+            </li>
+          </ul>
         </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item" onClick={closeMobileMenu}>
-            <Link to="/" className="nav-links">
-              HOME
-            </Link>
-          </li>
-          <li className="nav-item" onClick={closeMobileMenu}>
-            <Link to="/about" className="nav-links">
-              About
-            </Link>
-          </li>
-          <li className="nav-item" onClick={closeMobileMenu}>
-            <Link
-              to="/projects"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Projects
-            </Link>
-          </li>
-        </ul>
       </div>
     </nav>
   );
