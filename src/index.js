@@ -7,7 +7,9 @@ import App from "./App";
 const domNode = document.getElementById("root");
 const root = createRoot(domNode);
 root.render(
-  <HashRouter>
-    <App />
-  </HashRouter>
+  <React.StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </React.StrictMode>
 );
