@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.60c9699f.css",
-    "main.js": "/static/js/main.5dd6ddd9.js",
-    "static/media/rem.png": "/static/media/rem.4cdef0d0ee4d304272a9.png",
-    "static/media/3.png": "/static/media/3.7bbb204f340be36ab502.png",
-    "static/media/5.jpg": "/static/media/5.a162ceb96f5fac2f6b51.jpg",
-    "static/media/1.jpg": "/static/media/1.5b63c1026c4b2b2763ae.jpg",
-    "static/media/2.jpg": "/static/media/2.7d27531c35bad4512299.jpg",
-    "static/media/6.jpg": "/static/media/6.cbd6d9b4333773fc7093.jpg",
-    "static/media/4.jpg": "/static/media/4.a9cd6f742ebc1b3f7f89.jpg",
-    "index.html": "/index.html",
-    "main.60c9699f.css.map": "/static/css/main.60c9699f.css.map",
-    "main.5dd6ddd9.js.map": "/static/js/main.5dd6ddd9.js.map"
+    "main.css": "/CODSOFT/static/css/main.f97a052b.css",
+    "main.js": "/CODSOFT/static/js/main.4e067876.js",
+    "static/media/rem.png": "/CODSOFT/static/media/rem.4cdef0d0ee4d304272a9.png",
+    "static/media/3.png": "/CODSOFT/static/media/3.7bbb204f340be36ab502.png",
+    "static/media/5.jpg": "/CODSOFT/static/media/5.a162ceb96f5fac2f6b51.jpg",
+    "static/media/1.jpg": "/CODSOFT/static/media/1.5b63c1026c4b2b2763ae.jpg",
+    "static/media/2.jpg": "/CODSOFT/static/media/2.7d27531c35bad4512299.jpg",
+    "static/media/6.jpg": "/CODSOFT/static/media/6.cbd6d9b4333773fc7093.jpg",
+    "static/media/4.jpg": "/CODSOFT/static/media/4.a9cd6f742ebc1b3f7f89.jpg",
+    "index.html": "/CODSOFT/index.html",
+    "main.f97a052b.css.map": "/CODSOFT/static/css/main.f97a052b.css.map",
+    "main.4e067876.js.map": "/CODSOFT/static/js/main.4e067876.js.map"
   },
   "entrypoints": [
-    "static/css/main.60c9699f.css",
-    "static/js/main.5dd6ddd9.js"
+    "static/css/main.f97a052b.css",
+    "static/js/main.4e067876.js"
   ]
 }
