@@ -33,9 +33,6 @@
     align-self: center;
     margin-right: 0.3em;
 }
-.col-1 {
-    margin-bottom: 1em;
-}
 .email {
     margin-bottom: 0.7em;
     text-transform: lowercase;
@@ -63,6 +60,12 @@
         margin-left: 0;
         margin-right: auto;
         
+    }
+    .footer-wrapper {
+        background-image: url(../images/girl-2.png);
+        background-repeat: no-repeat;
+        background-position: 1200px bottom;
+        background-size: 300px;
     }
 }
 
