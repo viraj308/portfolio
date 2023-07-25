@@ -1,6 +1,6 @@
 :root {
     --gradiant: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    --gradiant2: liner-gradient(-45deg, #0f2027, #203a43, #2c5364);
+    --gradiant2: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-    background: var(--gradiant);
+    background: var(--gradiant2);
     height: 100vh;
     background-size: 1500% 1500%;
     animation: gradiant 15s ease infinite;
