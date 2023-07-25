@@ -7,6 +7,12 @@ export default function Footer() {
   return (
     <div className="footer-wrapper">
       <div className="container">
+        <div className="footer-text">
+          <p className="footer-para">
+            Do not hesitate to contact me to discuss a possible project or learn
+            more about my work.
+          </p>
+        </div>
         <div className="row">
           <div className="col-1">
             <p className="col-1-heading">Elsewhere</p>
@@ -43,6 +49,7 @@ export default function Footer() {
           <div className="col-2">
             <p className="col-2-heading">contact</p>
             <div className="link-wrap">
+              <p className="email">virajchavan308@gmail.com</p>
               <p className="ph-number">+918625069841</p>
             </div>
           </div>

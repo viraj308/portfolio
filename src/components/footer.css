@@ -11,9 +11,9 @@
     flex-wrap: wrap;
     align-items: start;
     justify-content: space-between;
-    max-width: 500px;
     margin: 0 auto;
-    gap: 10px;
+    width: 500px;
+    gap: 15px;
 }
 
 .link-wrap a {
@@ -36,8 +36,29 @@
 .col-1 {
     margin-bottom: 1em;
 }
-@media (min-width: 400px) {
-    .footer-wrapper {
-        
+.email {
+    margin-bottom: 0.7em;
+    text-transform: lowercase;
+}
+.footer-wrapper .container {
+    display: flex;
+}
+.footer-text {
+    display: none;
+    text-transform: initial;
+    width: 270px;
+    margin-top: 2.1em;
+}
+@media (min-width: 950px) {
+    .footer-text {
+        display: block;
+    }
+    .footer-wrapper .container {
+        justify-content: space-between;
+    }
+    .row {
+        width: 550px;
+        margin: 0 0;
     }
 }
+
