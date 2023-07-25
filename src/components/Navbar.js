@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./navbar.css";
 
 export default function Navbar() {
@@ -26,23 +26,23 @@ export default function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item" onClick={closeMobileMenu}>
-              <Link to="/" className="nav-links">
+              <NavLink to="/" className="nav-links">
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item" onClick={closeMobileMenu}>
-              <Link to="/about" className="nav-links">
+              <NavLink to="/about" className="nav-links">
                 About Me
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item" onClick={closeMobileMenu}>
-              <Link
+              <NavLink
                 to="/projects"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Projects
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
