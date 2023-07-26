@@ -1,7 +1,15 @@
+import "./projects.css";
+
 export default function Projects() {
   return (
     <div>
-      <h1>Projects</h1>
+      <div className="projects-wrapper">
+        <div className="container">
+          <div className="projects-text">
+            <p>No projects, yet..</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

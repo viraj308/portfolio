@@ -1,6 +1,8 @@
 :root {
     --gradiant: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     --gradiant2: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
+    --gradiant-vice-city: linear-gradient(-45deg,  #3494e6, #ec6ead );
+    --gradiant-easy-med: linear-gradient(-45deg,  #dce35b, #45b649 );
 }
 
 * {
@@ -11,7 +13,7 @@
 }
 
 body {
-    background: var(--gradiant2);
+    background: var(--gradiant-easy-med);
     height: 100vh;
     background-size: 1500% 1500%;
     animation: gradiant 15s ease infinite;
