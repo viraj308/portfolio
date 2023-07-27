@@ -18,13 +18,16 @@ export default function About() {
           </p>
           <hr className="line" />
           <div className="social-icons">
-            <a href="#">
+            <a target="_blank" href="https://twitter.com/VirajCh88003550?s=20">
               <AiFillTwitterCircle size={40} color="white" />
             </a>
-            <a href="#">
+            <a target="_blank" href="https://www.instagram.com/virajchavan308/">
               <AiFillInstagram size={40} color="white" />
             </a>
-            <a href="#">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/viraj-chavan-84572a206/"
+            >
               <AiFillLinkedin size={40} color="white" />
             </a>
           </div>

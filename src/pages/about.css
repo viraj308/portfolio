@@ -14,7 +14,7 @@
     background-color: transparent;
     text-align: center;
     height: 98vh;
-    background-image: url(../images/my-pic.png);
+    background-image: url(../images/my-pic-outline.png);
     background-repeat: no-repeat;
     background-size: clamp(23.125rem, -30.3125rem + 112.5vh, 40rem);
     background-position: bottom center;
@@ -43,15 +43,21 @@
 }
 .social-icons {
     margin: 1em auto 0 auto;
-    width: 150px;
+    width: 160px;
     display: flex;
     justify-content: space-between;
 
 }
+.footer-name-wrapper {
+  height: 500px;
+  background-color: red;
+}
+
+
 
 @media (min-height: 750px) {
     .about-wrapper {
-        height: 90vh;
+        height: 91.6vh;
     }
 }
 
