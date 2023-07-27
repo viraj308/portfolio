@@ -8,6 +8,7 @@ export default function Footer() {
     <div className="footer-wrapper">
       <div className="container">
         <div className="footer-text">
+          <div className="footer-logo">VIRU</div>
           <p className="footer-para">
             Do not hesitate to contact me to discuss a possible project or learn
             more about my work.

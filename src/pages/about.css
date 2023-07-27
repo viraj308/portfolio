@@ -1,3 +1,14 @@
+  @keyframes slideDown-2 {
+    0% {
+      transform: translateY(-2%);
+      opacity: 0.3;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
 .about-wrapper {
     color: white;
     background-color: transparent;
@@ -7,11 +18,13 @@
     background-repeat: no-repeat;
     background-size: clamp(23.125rem, -30.3125rem + 112.5vh, 40rem);
     background-position: bottom center;
+    animation: 0.5s ease-out 0s 1 slideDown-2;
 }
 .about-heading {
     font-family: 'Lobster', cursive;
     font-size: clamp(2.8rem, 1.7647rem + 3.7647vw, 6rem);
     margin-bottom: 0.4em;
+    
 }
 .about-para {
     margin: 0 auto;
@@ -19,18 +32,21 @@
     font-size: clamp(1rem, 0.9714rem + 0.1143vw, 1.1rem);
     margin-bottom: 2em;
     max-width: 900px;
+    
 }
 .line {
     width: 30%;
     min-width: 300px;
     margin: 0 auto;
     color: white;
+    
 }
 .social-icons {
     margin: 1em auto 0 auto;
     width: 150px;
     display: flex;
     justify-content: space-between;
+
 }
 
 @media (min-height: 750px) {

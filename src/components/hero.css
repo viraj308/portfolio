@@ -1,15 +1,26 @@
-@keyframes slideInLeft {
+/* @keyframes slideInLeft {
     0% {
-      transform: translateX(-100%);
+      transform: translateX(-50%);
     }
     100% {
       transform: translateX(0);
     }
+  } */
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-5%);
+      opacity: 0.3;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
+
 
 .hero-heading {
     font-family: 'Lobster', cursive;
-    animation: 1s ease-out 0s 1 slideInLeft;
+    animation: 0.5s ease-out 0s 1 slideDown;
     text-transform: capitalize;
     font-size: clamp(3.2rem, .5692rem + 8.238vw, 13.75rem);
     line-height: 1em;
@@ -22,6 +33,7 @@
     margin: 0 auto;
     text-align: center;
     color: white;
+
 }
 .hero-section {
     padding: 2em 0;
@@ -31,7 +43,9 @@
     width: 90%;
     max-width: 700px;
     margin: 0 auto;
+    
 }
+
 @media (min-width: 900px) {
     .hero-heading {
         padding-bottom: 75px;

@@ -10,11 +10,11 @@ export default function About() {
         <div className="container">
           <h1 className="about-heading">About Me</h1>
           <p className="about-para">
-            Highly motivated beginner front-end developer .Started learning
+            Highly motivated beginner front-end developer. Started learning
             web-dev a couple months back from a book. Driven and permanently
             curious, inspired by the numerous intuitive web designs over
             internet. A third year university student. A big fan of Anime, manga
-            and a beginner japanese language student
+            and a beginner japanese language student.
           </p>
           <hr className="line" />
           <div className="social-icons">
