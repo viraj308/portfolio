@@ -13,7 +13,7 @@
 }
 
 body {
-    background: var(--gradiant-easy-med);
+    background: var(--gradiant);
     height: 100vh;
     background-size: 1500% 1500%;
     animation: gradiant 15s ease infinite;

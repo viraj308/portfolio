@@ -49,7 +49,7 @@
 .footer-logo {
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.5em;
 }
 @media (min-width: 950px) {
     .footer-text {

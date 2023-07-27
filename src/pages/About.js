@@ -12,7 +12,7 @@ export default function About() {
           <p className="about-para">
             Highly motivated beginner front-end developer. Started learning
             web-dev a couple months back from a book. Driven and permanently
-            curious, inspired by the numerous intuitive web designs over
+            curious, inspired by the numerous intuitive web designs over the
             internet. A third year university student. A big fan of Anime, manga
             and a beginner japanese language student.
           </p>

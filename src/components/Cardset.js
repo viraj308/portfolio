@@ -17,16 +17,19 @@ export default function Cardset() {
           <ul className="cards-flex">
             <div className="cards-1">
               <Card
+                link="https://github.com/viraj308/Stats-Card-Component"
                 src={img1}
                 title="A simple card component project"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
               <Card
+                link="https://github.com/viraj308/Qr-code"
                 src={img2}
                 title="A simple card component project"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
               <Card
+                link="https://github.com/viraj308/Profile-Card-Component"
                 src={img3}
                 title="A simple card component project"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
@@ -34,17 +37,20 @@ export default function Cardset() {
             </div>
             <div className="cards-2">
               <Card
+                link="https://github.com/viraj308/NFT-Card-Component"
                 src={img4}
                 title="A simple card component project"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
 
               <Card
+                link="https://github.com/viraj308/3-column-preview-card-component"
                 src={img5}
                 title="A simple card component project"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
               <Card
+                link="https://github.com/viraj308/Order-Summary-Component"
                 src={img6}
                 title="A simple card component project"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
