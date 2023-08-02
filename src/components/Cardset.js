@@ -19,19 +19,19 @@ export default function Cardset() {
               <Card
                 link="https://github.com/viraj308/Stats-Card-Component"
                 src={img1}
-                title="A simple card component project"
+                title="A Stats preview card component"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
               <Card
                 link="https://github.com/viraj308/Qr-code"
                 src={img2}
-                title="A simple card component project"
+                title="A Simple Qr-code component"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
               <Card
                 link="https://github.com/viraj308/Profile-Card-Component"
                 src={img3}
-                title="A simple card component project"
+                title="A responsive profile card component"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
             </div>
@@ -39,20 +39,20 @@ export default function Cardset() {
               <Card
                 link="https://github.com/viraj308/NFT-Card-Component"
                 src={img4}
-                title="A simple card component project"
+                title="A NFT card component"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
 
               <Card
                 link="https://github.com/viraj308/3-column-preview-card-component"
                 src={img5}
-                title="A simple card component project"
+                title="A 3-column preview card component"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
               <Card
                 link="https://github.com/viraj308/Order-Summary-Component"
                 src={img6}
-                title="A simple card component project"
+                title="An order summary component"
                 text="A simple responsive card component designed using plain HTML and CSS for a friend"
               />
             </div>

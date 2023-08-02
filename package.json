@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy" : "gh-pages -d build"
   },
-  "homepage": "http://viraj308.github.io/CODSOFT",
+  "homepage": "http://viraj308.github.io/portfolio/",
   "eslintConfig": {
     "extends": [
       "react-app",
