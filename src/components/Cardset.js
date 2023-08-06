@@ -20,19 +20,19 @@ export default function Cardset() {
                 link="https://github.com/viraj308/Stats-Card-Component"
                 src={img1}
                 title="A Stats preview card component"
-                text="A simple responsive card component designed using plain HTML and CSS for a friend"
+                text="A simple responsive card component designed using plain HTML and CSS in a task for frontend mentor"
               />
               <Card
                 link="https://github.com/viraj308/Qr-code"
                 src={img2}
                 title="A Simple Qr-code component"
-                text="A simple responsive card component designed using plain HTML and CSS for a friend"
+                text="A simple responsive card component designed using plain HTML and CSS in a task for frontend mentor"
               />
               <Card
                 link="https://github.com/viraj308/Profile-Card-Component"
                 src={img3}
                 title="A responsive profile card component"
-                text="A simple responsive card component designed using plain HTML and CSS for a friend"
+                text="A simple responsive card component designed using plain HTML and CSS in a task for frontend mentor"
               />
             </div>
             <div className="cards-2">
@@ -40,20 +40,20 @@ export default function Cardset() {
                 link="https://github.com/viraj308/NFT-Card-Component"
                 src={img4}
                 title="A NFT card component"
-                text="A simple responsive card component designed using plain HTML and CSS for a friend"
+                text="A simple responsive card component designed using plain HTML and CSS in a task for frontend mentor"
               />
 
               <Card
                 link="https://github.com/viraj308/3-column-preview-card-component"
                 src={img5}
                 title="A 3-column preview card component"
-                text="A simple responsive card component designed using plain HTML and CSS for a friend"
+                text="A simple responsive card component designed using plain HTML and CSS in a task for frontend mentor"
               />
               <Card
                 link="https://github.com/viraj308/Order-Summary-Component"
                 src={img6}
                 title="An order summary component"
-                text="A simple responsive card component designed using plain HTML and CSS for a friend"
+                text="A simple responsive card component designed using plain HTML and CSS in a task for frontend mentor"
               />
             </div>
           </ul>

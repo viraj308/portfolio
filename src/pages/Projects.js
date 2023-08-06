@@ -6,7 +6,7 @@ export default function Projects() {
       <div className="projects-wrapper">
         <div className="container">
           <div className="projects-text">
-            <p>No projects, yet..</p>
+            <p>No Credible project, yet..</p>
           </div>
         </div>
       </div>

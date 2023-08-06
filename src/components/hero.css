@@ -39,7 +39,7 @@
     padding: 2em 0;
 }
 .hero-para {
-    font-size: clamp(0.9rem, 0.8029rem + 0.3529vw, 1.2rem);
+    font-size: clamp(0.95rem, 0.8029rem + 0.3529vw, 1.2rem);
     width: 90%;
     max-width: 700px;
     margin: 0 auto;
