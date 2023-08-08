@@ -4,7 +4,7 @@
     font-size: clamp(2.8rem, 1.7647rem + 3.7647vw, 6rem);
     text-align: center;
     margin-bottom: 0.8em;
-    margin-top: 0.3em;
+    margin-top: 0.6em;
 }
 .Cards2-flex {
     display: flex;
@@ -13,7 +13,6 @@
     margin-bottom: 2em;
 }
 .card-1 {
-    border-radius: 20px;
     margin-bottom: 2em;
    
 }
@@ -23,7 +22,6 @@
     background-color: white;
     max-width: 600px;
     overflow: hidden;
-    object-fit: cover
 }
 .card-1-image {
     border-radius: 13px;
@@ -51,9 +49,9 @@
         margin-bottom: 3em;
     }
     .card-1 {
-        width: 50%;
+        width: 48%;
     }
     .card-2 {
-        width: 45%;
+        width: 48%;
     }
 }

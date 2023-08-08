@@ -8,35 +8,29 @@
       opacity: 1;
     }
   }
-  @keyframes slideDown-2 {
-    0% {
-      transform: translateY(-80%);
-      opacity: 0.3;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+ 
+  .cards-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,350px);
+    gap: 65px 37.5px;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    max-width: 1125px;
+    width: 100%;
+    margin-top: 1.9em;
+    margin-bottom: 2em;
   }
 
-.cards-flex {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 1125px;
-}
-.cards-1, .cards-2{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    animation: 0.5s ease-out 0s 1 slideDown-2;
-}
 
 .cardset-title {
     font-family: 'Lobster', cursive;
-    animation: 0.5s ease-out 0s 1 slideDown;
+    /* animation: 0.5s ease-out 0s 1 slideDown; */
     font-size: clamp(2.8rem, 1.7647rem + 3.7647vw, 6rem);
     font-weight: 900;
     color: white;
@@ -46,11 +40,8 @@
     padding-bottom: 0.3em;
 }
 
-@media (min-width: 1212px) {
-
-    .cards-1, .cards-2{
-        flex-direction: row;
-        gap: 15px;
-        animation: 0.5s ease-out 0s 1 slideDown;
-    }
+@media (min-width: 1250px) {
+  .cards-grid {
+    animation: 0.5s ease-out 0s 1 slideDown;
+  }
 }

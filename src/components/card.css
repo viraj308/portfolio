@@ -6,9 +6,9 @@ img {
     padding: 1em;
     background-color: white;
     border-radius: 18px;
-    min-width: 300px;
-    max-width: 350px;
-    margin: 2em 0;
+    /* min-width: 300px;
+    max-width: 350px; */
+   /*  margin: 2em 0; */
 }
 .card-image-wrapper {
     height: 250px;
