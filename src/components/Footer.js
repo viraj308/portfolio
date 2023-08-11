@@ -42,7 +42,7 @@ export default function Footer() {
               >
                 linkedIn
               </a>
-              <a href="#" target="_blank">
+              <a href="https://viraj308.github.io/Resume/" target="_blank">
                 resume
               </a>
             </div>

@@ -24,7 +24,7 @@ export default function Cards2() {
               </p>
             </div>
           </div>
-          <div className="card-1 card-2">
+          <div className="card-1">
             <div className="card-1-image-wrapper">
               <a
                 href="https://github.com/viraj308/react-calculator.git"
